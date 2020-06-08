@@ -1,0 +1,35 @@
+id: satellites_eirsat_concatenated_deframer
+label: EIRSAT-1 Concatenated Deframer
+category: '[Satellites]/Deframers'
+
+parameters:
+-   id: threshold
+    label: Syncword threshold
+    dtype: int
+    default: 0
+
+inputs:
+-   domain: stream
+    dtype: float
+
+outputs:
+-   domain: message
+    id: out
+
+templates:
+    imports: import satellites.components.deframers
+    make: satellites.components.deframers.eirsat_concatenated_deframer(syncword_threshold = ${threshold})
+
+documentation: |-
+    Deframes a signal using the EIRSAT-1 concatenated TM protocol
+
+    Input:
+        A stream of soft symbols containing packets using the EIRSAT-1 concatenated TM protocol
+
+    Output:
+        PDUs with the deframed EIRSAT-1 packets
+
+    Parameters:
+        Syncword threshold: number of bit errors to allow in syncword detection
+
+file_format: 1

@@ -28,6 +28,8 @@ install(FILES
     satellites_ax25_deframer.block.yml
     satellites_ccsds_concatenated_deframer.block.yml
     satellites_ccsds_rs_deframer.block.yml
+    satellites_eirsat_deframer.block.yml
+    satellites_eirsat_concatenated_deframer.block.yml
     satellites_eseo_deframer.block.yml
     satellites_k2sat_deframer_component.block.yml
     satellites_lucky7_deframer.block.yml

@@ -21,6 +21,7 @@
 install(FILES
     satellites_ccsds_descrambler.py.block.yml
     satellites_ccsds_viterbi.py.block.yml
+    satellites_cmc_viterbi.py.block.yml
     satellites_pn9_scrambler.py.block.yml
     satellites_rms_agc.py.block.yml
     satellites_si4463_scrambler.py.block.yml

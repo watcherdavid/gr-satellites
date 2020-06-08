@@ -16,6 +16,7 @@ These are Python files compiled from hierarchical flowgraphs
 
 from .ccsds_descrambler import ccsds_descrambler
 from .ccsds_viterbi import ccsds_viterbi
+from .cmc_viterbi import cmc_viterbi
 from .pn9_scrambler import pn9_scrambler
 from .rms_agc import rms_agc
 from .rms_agc_f import rms_agc_f

@@ -34,6 +34,7 @@ GR_PYTHON_INSTALL(
     __init__.py
     ccsds_descrambler.py
     ccsds_viterbi.py
+    cmc_viterbi.py
     si4463_scrambler.py
     sync_to_pdu.py
     sync_to_pdu_packed.py

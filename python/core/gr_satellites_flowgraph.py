@@ -274,6 +274,8 @@ class gr_satellites_flowgraph(gr.hier_block2):
         'OPS-SAT' : deframers.ops_sat_deframer,
         'U482C' : deframers.u482c_deframer,
         'UA01' : deframers.ua01_deframer,
+        'EIRSAT-1' : deframers.eirsat_deframer,
+        'EIRSAT-1 Concatenated' : deframers.eirsat_concatenated_deframer,
     }
     _transport_hooks = {
         'KISS' : transports.kiss_transport,

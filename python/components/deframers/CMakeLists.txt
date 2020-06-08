@@ -41,6 +41,8 @@ GR_PYTHON_INSTALL(
     ax25_deframer.py
     ccsds_concatenated_deframer.py
     ccsds_rs_deframer.py
+    eirsat_deframer.py
+    eirsat_concatenated_deframer.py
     eseo_deframer.py
     k2sat_deframer.py
     lilacsat_1_deframer.py
